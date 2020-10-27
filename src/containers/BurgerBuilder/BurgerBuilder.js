@@ -79,7 +79,6 @@ this.uptadePurchaseState(updatedIngredients);
   alert("You continue!");
   }
 render(){
-  console.log("BurgerBuilder.js");
   const disabledInfo = {
     ...this.state.ingredients
   };

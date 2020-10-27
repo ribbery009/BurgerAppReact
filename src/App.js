@@ -4,7 +4,6 @@ import BurgerBuilder from './containers/BurgerBuilder/BurgerBuilder';
 
 class App extends Component {
   render() {
-    console.log("App.js");
     return(
       <div>
         <Layout>

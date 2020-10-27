@@ -23,7 +23,6 @@ this.setState((prevState) =>{
 }
 
   render(){
-    console.log("[Layout:ShowSide]",this.state.showSideDrawer);
     return (<Aux>
       <Toolbar drawerToggleClicked={this.sideDrawerToggleHandler}/>
       <SideDrawer open={this.state.showSideDrawer}closed={this.sideDrawerClosedHandler}/>
